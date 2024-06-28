@@ -59,6 +59,7 @@ body {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .flex_column_center {
@@ -173,9 +174,9 @@ body {
 
 /* Menu Container Codes */
 
-main {
+/* main {
   margin-bottom: auto;
-}
+} */
 
 #main_section_container_2, #main_section_container_3, #main_section_container_4 {
   display: none;
@@ -242,6 +243,10 @@ main {
 }
 
 /* Footer Codes */
+
+footer {
+     margin-top: auto;
+}
 
 .footer_div_item {
   color: var(--footer_text_color);
