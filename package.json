@@ -9,10 +9,10 @@
         "url": "https://rejectmodders.me"
     },
     "scripts": {
-        "dev": "nuxt",
-        "clean": "rimraf .nuxt",
-        "generate": "nuxt generate",
-        "deploy": "gh-pages -d .output/public --repo https://github.com/RejectModderss/RejectModderss.github.io.git"
+      "dev": "nuxt",
+      "clean": "rimraf .nuxt",
+      "generate": "nuxt generate",
+      "deploy": "node deploy.js"
     },
     "dependencies": {
         "@nuxtjs/dotenv": "^1.4.1",
