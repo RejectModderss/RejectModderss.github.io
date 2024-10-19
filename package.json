@@ -9,11 +9,11 @@
         "url": "https://rejectmodders.me"
     },
     "scripts": {
-      "dev": "nuxt",
-      "clean": "rimraf .nuxt",
-      "generate": "nuxt generate",
-      "deploy": "node deploy.js"
+        "dev": "nuxt",
+        "build": "nuxt build",
+        "start": "nuxt start"
     },
+
     "dependencies": {
         "@nuxtjs/dotenv": "^1.4.1",
         "nuxt": "^3.13.2"
