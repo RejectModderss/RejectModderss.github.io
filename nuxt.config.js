@@ -63,7 +63,7 @@ export default {
       }
     ],
     link: [
-      { rel: 'icon', type: 'image/png', href: '/rejectmodders.png' } // Ensure the favicon path is correct
+      { rel: 'icon', type: 'image/png', href: 'rejectmodders.png' } // Ensure the favicon path is correct
     ]
   },
 
