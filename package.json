@@ -1,0 +1,24 @@
+{
+    "name": "personal-website",
+    "description": "Simple personal website built with Nuxt.js & Tailwind CSS.",
+    "license": "MIT",
+    "version": "1.0.0",
+    "author": {
+        "name": "Eleven",
+        "email": "elevenvac@pm.me",
+        "url": "https://eleven.js.org"
+    },
+    "scripts": {
+        "dev": "nuxt",
+        "build": "nuxt build",
+        "start": "nuxt start",
+        "generate": "nuxt generate"
+    },
+    "dependencies": {
+        "@nuxtjs/dotenv": "^1.4.1",
+        "nuxt": "^3.13.2"
+    },
+    "devDependencies": {
+        "@nuxtjs/tailwindcss": "^6.12.2"
+    }
+}
