@@ -11,7 +11,10 @@
     "scripts": {
         "dev": "nuxt",
         "build": "nuxt build",
-        "start": "nuxt start"
+        "start": "nuxt start",
+        "clean": "rimraf .nuxt",
+        "generate": "nuxt generate",
+        "deploy": "gh-pages -d dist"
     },
 
     "dependencies": {
