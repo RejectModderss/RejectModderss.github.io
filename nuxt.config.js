@@ -41,30 +41,12 @@ export default {
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       {
-        hid: 'description',
-        name: 'description',
-        content: 'Learn more about me and how I started my journey as a self-taught Python developer.'
-      },
-      {
-        property: 'og:title',
-        content: 'Learn More About Me!'
-      },
-      {
-        property: 'og:description',
-        content: 'Learn more about me and how I started my journey as a self-taught Python developer.'
-      },
-      {
-        property: 'og:image',
-        content: '/rejectmodders.png' // Update with the path to your image
-      },
-      {
-        property: 'og:url',
-        content: 'https://rejectmodders.me' // Update with your website URL
+          hid: 'description',
+          name: 'description',
+          content: 'Learn more about me and how I started my journey as a self-taught Python developer.'
       }
     ],
-    link: [
-      { rel: 'icon', type: 'image/png', href: 'rejectmodders.png' } // Ensure the favicon path is correct
-    ]
+    link: [{ rel: 'icon', type: 'image/x-icon', href: '/rejectmodders.png' }]
   },
 
   noscript: [
