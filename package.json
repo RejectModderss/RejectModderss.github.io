@@ -4,21 +4,22 @@
     "license": "MIT",
     "version": "1.0.0",
     "author": {
-        "name": "Eleven",
-        "email": "elevenvac@pm.me",
-        "url": "https://eleven.js.org"
+        "name": "RejectModders",
+        "email": "rejectmodders@disutils.com",
+        "url": "https://rejectmodders.me"
     },
     "scripts": {
         "dev": "nuxt",
-        "build": "nuxt build",
-        "start": "nuxt start",
-        "generate": "nuxt generate"
+        "clean": "rimraf .nuxt",
+        "generate": "nuxt generate",
+        "deploy": "gh-pages -d .output/public --repo https://github.com/RejectModderss/RejectModderss.github.io.git"
     },
     "dependencies": {
         "@nuxtjs/dotenv": "^1.4.1",
         "nuxt": "^3.13.2"
     },
     "devDependencies": {
-        "@nuxtjs/tailwindcss": "^6.12.2"
+        "@nuxtjs/tailwindcss": "^6.12.2",
+        "gh-pages": "^6.2.0"
     }
 }

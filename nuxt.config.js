@@ -11,6 +11,10 @@ export default {
       extractCSS: true,
   },
 
+  router: {
+    base: '/RejectModderss.github.io/'
+  },
+
   buildModules: [
       '@nuxtjs/dotenv'
   ],
@@ -38,8 +42,8 @@ export default {
           { name: 'viewport', content: 'width=device-width, initial-scale=1' },
           {
               hid: 'description',
-              name: 'description',
-              content: 'my website description'
+              name: 'Learn More About Me!',
+              content: 'Learn more about me and how I started my journey as a self-taught Python developer.'
           }
       ],
       link: [{ rel: 'icon', type: 'image/x-icon', href: 'nuxt_64x.png' }]
