@@ -36,17 +36,35 @@ export default {
   ],
 
   head: {
-      title: 'Eleven – Self-taught web developer.',
-      meta: [
-          { charset: 'utf-8' },
-          { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-          {
-              hid: 'description',
-              name: 'Learn More About Me!',
-              content: 'Learn more about me and how I started my journey as a self-taught Python developer.'
-          }
-      ],
-      link: [{ rel: 'icon', type: 'image/x-icon', href: 'nuxt_64x.png' }]
+    title: 'Learn More About Me!',
+    meta: [
+      { charset: 'utf-8' },
+      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+      {
+        hid: 'description',
+        name: 'description',
+        content: 'Learn more about me and how I started my journey as a self-taught Python developer.'
+      },
+      {
+        property: 'og:title',
+        content: 'Learn More About Me!'
+      },
+      {
+        property: 'og:description',
+        content: 'Learn more about me and how I started my journey as a self-taught Python developer.'
+      },
+      {
+        property: 'og:image',
+        content: '/assets/images/rejectmodders.gif' // Update with the path to your image
+      },
+      {
+        property: 'og:url',
+        content: 'https://rejectmodders.me' // Update with your website URL
+      }
+    ],
+    link: [
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+    ]
   },
 
   noscript: [
