@@ -55,7 +55,7 @@ export default {
       },
       {
         property: 'og:image',
-        content: '/assets/images/rejectmodders.gif' // Update with the path to your image
+        content: '/rejectmodders.png' // Update with the path to your image
       },
       {
         property: 'og:url',
@@ -63,7 +63,7 @@ export default {
       }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/png', href: '/rejectmodders.png' } // Ensure the favicon path is correct
     ]
   },
 
